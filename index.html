@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jedediah Riley: Things I like</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet"> 
 </head>
 <body>
     
@@ -21,39 +24,36 @@
         </nav>
     
 
-    <section id="side-nav">
-      <ul>
-        <li><a href="https://instagram.com/theactorjames" target="_blank">My Acting Instagram</a></li>
-        <li><a href="https://actorsaccess.com/actor/preview/actor_details.cfm?tab=resume" target="_blank">My Actors Acces Resume</a></li>
-        <li><a href="https://instagram.com/kdeertravel" target="_blank">My Travel Instagram</a></li>
-        <li><a href="https://killdeertravel.com" target="_blank">My Travel Blog</a></li>
-        <li><a href="https://paizo.com/pathfinder" target="_blank">Paizo Pathfinder</a></li>
-        <li><a href="https://www.d20pfsrd.com/" target="_blank">D20pfsrd</a></li>
-      </ul>
+    <nav class="side-nav">
+        <a href="https://instagram.com/theactorjames" target="_blank">My Acting Instagram</a></li>
+        <a href="https://actorsaccess.com/actor/preview/actor_details.cfm?tab=resume" target="_blank">My Actors Acces Resume</a></li>
+        <a href="https://instagram.com/kdeertravel" target="_blank">My Travel Instagram</a></li>
+        <a href="https://killdeertravel.com" target="_blank">My Travel Blog</a></li>
+        <a href="https://paizo.com/pathfinder" target="_blank">Paizo Pathfinder</a></li>
+        <a href="https://www.d20pfsrd.com/" target="_blank">D20pfsrd</a></li>
+    </nav>
 
-    </section>
-
-    <div id="#main">
-        <h2 id="acting">Acting</h2>
-            <p>I have been involed in theater both on and behind stage in a variety of ways.</p>
-            <p>I have been with my agent since last June </p>
+    <section class="main">
+        <h2 id="acting" class="acting">Acting</h2>
+            <p class="p-acting-one">I have been involed in theater both on and behind stage in a variety of ways.</p>
+            <p class="p-acting-two">I have been with my agent since last June </p>
             <img src="assets/photo1.jpg" alt="photo 1">
-            <img src="assets/photo2.jpg">
-            <img src="assets/photo3.jpg">
+            <img src="assets/photo2.jpg" alt="photo2">
+            <img src="assets/photo3.jpg" alt="photo3">
         <h2 id="travel">Travel</h2>
-            <p>I love to travel and been in seven different countries in Europe and three in the Middle East. </p>
-            <p>I love to plan travel and I have a travel advisor company I run in my spare time.</p>
+            <p class="travel-one">I love to travel and been in seven different countries in Europe and three in the Middle East. </p>
+            <p class="travel-two">I love to plan travel and I have a travel advisor company I run in my spare time.</p>
             <ol>Top 3 Favorite Places to Travel
                 <li>Petra</li>
                 <li>Stonehenge</li>
                 <li>Germany</li>
             </ol>
         <h2 id="gaming">Gaming</h2>
-            <p>I enjoy playing table top RPGs. My "goto" is Pathfinder 1e.</p>
-            <p>I have currently ruining a homebrew campaign in a world that I created. It is a lot of work.</p>
-    </div>
+            <p class="gaming-one">I enjoy playing table top RPGs. My "goto" is Pathfinder 1e.</p>
+            <p class="gaming-two">I have currently ruining a homebrew campaign in a world that I created. It is a lot of work.</p>
+        </section>
 
-    <form id="comment-form">
+    <form id="comment-form" class="form">
         <label for="Name">Name</label>
         <input id="name" />
         <label for="Email">Email</label>
@@ -61,6 +61,7 @@
         <textarea id="text-area">Enter your comments here</textarea>
         <button id="submit">Submit</button>
     </form>
+    <footer class="footer">Created By: perlstuff</footer>
 </body>
-<footer class="footer">Created By: perlstuff</footer>
+
 </html>
